@@ -1,0 +1,6 @@
+framework module Pods_OptiEmailValidator_OptiEmailValidatorTests {
+  umbrella header "Pods-OptiEmailValidator-OptiEmailValidatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
