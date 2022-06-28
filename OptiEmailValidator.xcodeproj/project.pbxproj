@@ -12,6 +12,8 @@
 		ADBB0471286B680B00054E4A /* OptiEmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB0470286B680B00054E4A /* OptiEmailValidatorTests.swift */; };
 		ADBB0472286B680B00054E4A /* OptiEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBB0464286B680B00054E4A /* OptiEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADBB047C286B681E00054E4A /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB047B286B681E00054E4A /* EmailValidator.swift */; };
+		AFF8D7590F4D386710172CA5 /* Pods_OptiEmailValidator_OptiEmailValidatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEDE5EE54E731E201533696 /* Pods_OptiEmailValidator_OptiEmailValidatorTests.framework */; };
+		F5207301C8CD720D3C3003F1 /* Pods_OptiEmailValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067537BF91BAA5BEADBA9FBA /* Pods_OptiEmailValidator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067537BF91BAA5BEADBA9FBA /* Pods_OptiEmailValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptiEmailValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A65FE24E497A34622CDA156 /* Pods-OptiEmailValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptiEmailValidator.debug.xcconfig"; path = "Target Support Files/Pods-OptiEmailValidator/Pods-OptiEmailValidator.debug.xcconfig"; sourceTree = "<group>"; };
+		6167852407421A2386627671 /* Pods-OptiEmailValidator-OptiEmailValidatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptiEmailValidator-OptiEmailValidatorTests.release.xcconfig"; path = "Target Support Files/Pods-OptiEmailValidator-OptiEmailValidatorTests/Pods-OptiEmailValidator-OptiEmailValidatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CEDE5EE54E731E201533696 /* Pods_OptiEmailValidator_OptiEmailValidatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptiEmailValidator_OptiEmailValidatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D23867D65759B745FB466C7 /* Pods-OptiEmailValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptiEmailValidator.release.xcconfig"; path = "Target Support Files/Pods-OptiEmailValidator/Pods-OptiEmailValidator.release.xcconfig"; sourceTree = "<group>"; };
 		ADBB0461286B680B00054E4A /* OptiEmailValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptiEmailValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBB0464286B680B00054E4A /* OptiEmailValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptiEmailValidator.h; sourceTree = "<group>"; };
 		ADBB0465286B680B00054E4A /* OptiEmailValidator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = OptiEmailValidator.docc; sourceTree = "<group>"; };
@@ -32,6 +39,7 @@
 		ADBB0470286B680B00054E4A /* OptiEmailValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiEmailValidatorTests.swift; sourceTree = "<group>"; };
 		ADBB047B286B681E00054E4A /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
 		ADBB047E286B684800054E4A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		F4773A2CDAF6244CF6637D17 /* Pods-OptiEmailValidator-OptiEmailValidatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptiEmailValidator-OptiEmailValidatorTests.debug.xcconfig"; path = "Target Support Files/Pods-OptiEmailValidator-OptiEmailValidatorTests/Pods-OptiEmailValidator-OptiEmailValidatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5207301C8CD720D3C3003F1 /* Pods_OptiEmailValidator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,12 +56,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADBB046C286B680B00054E4A /* OptiEmailValidator.framework in Frameworks */,
+				AFF8D7590F4D386710172CA5 /* Pods_OptiEmailValidator_OptiEmailValidatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1549A3278108BE53C090408C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A65FE24E497A34622CDA156 /* Pods-OptiEmailValidator.debug.xcconfig */,
+				8D23867D65759B745FB466C7 /* Pods-OptiEmailValidator.release.xcconfig */,
+				F4773A2CDAF6244CF6637D17 /* Pods-OptiEmailValidator-OptiEmailValidatorTests.debug.xcconfig */,
+				6167852407421A2386627671 /* Pods-OptiEmailValidator-OptiEmailValidatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ADBB0457286B680B00054E4A = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +82,7 @@
 				ADBB046F286B680B00054E4A /* OptiEmailValidatorTests */,
 				ADBB0462286B680B00054E4A /* Products */,
 				ADBB047D286B684800054E4A /* Frameworks */,
+				1549A3278108BE53C090408C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				ADBB047E286B684800054E4A /* Accelerate.framework */,
+				067537BF91BAA5BEADBA9FBA /* Pods_OptiEmailValidator.framework */,
+				6CEDE5EE54E731E201533696 /* Pods_OptiEmailValidator_OptiEmailValidatorTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADBB0475286B680B00054E4A /* Build configuration list for PBXNativeTarget "OptiEmailValidator" */;
 			buildPhases = (
+				ADC83B66155E8964789DDBA5 /* [CP] Check Pods Manifest.lock */,
 				ADBB045C286B680B00054E4A /* Headers */,
 				ADBB045D286B680B00054E4A /* Sources */,
 				ADBB045E286B680B00054E4A /* Frameworks */,
@@ -134,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADBB0478286B680B00054E4A /* Build configuration list for PBXNativeTarget "OptiEmailValidatorTests" */;
 			buildPhases = (
+				5230FF70BAD5054C2689DD69 /* [CP] Check Pods Manifest.lock */,
 				ADBB0467286B680B00054E4A /* Sources */,
 				ADBB0468286B680B00054E4A /* Frameworks */,
 				ADBB0469286B680B00054E4A /* Resources */,
+				3AAACB896C45A017247DA3AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +229,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AAACB896C45A017247DA3AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OptiEmailValidator-OptiEmailValidatorTests/Pods-OptiEmailValidator-OptiEmailValidatorTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OptiEmailValidator-OptiEmailValidatorTests/Pods-OptiEmailValidator-OptiEmailValidatorTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OptiEmailValidator-OptiEmailValidatorTests/Pods-OptiEmailValidator-OptiEmailValidatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5230FF70BAD5054C2689DD69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptiEmailValidator-OptiEmailValidatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC83B66155E8964789DDBA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptiEmailValidator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADBB045D286B680B00054E4A /* Sources */ = {
@@ -353,6 +445,7 @@
 		};
 		ADBB0476286B680B00054E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A65FE24E497A34622CDA156 /* Pods-OptiEmailValidator.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -380,6 +473,7 @@
 		};
 		ADBB0477286B680B00054E4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D23867D65759B745FB466C7 /* Pods-OptiEmailValidator.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -407,6 +501,7 @@
 		};
 		ADBB0479286B680B00054E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4773A2CDAF6244CF6637D17 /* Pods-OptiEmailValidator-OptiEmailValidatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +518,7 @@
 		};
 		ADBB047A286B680B00054E4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6167852407421A2386627671 /* Pods-OptiEmailValidator-OptiEmailValidatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
