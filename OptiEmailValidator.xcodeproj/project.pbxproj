@@ -11,6 +11,7 @@
 		ADBB046C286B680B00054E4A /* OptiEmailValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBB0461286B680B00054E4A /* OptiEmailValidator.framework */; };
 		ADBB0471286B680B00054E4A /* OptiEmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB0470286B680B00054E4A /* OptiEmailValidatorTests.swift */; };
 		ADBB0472286B680B00054E4A /* OptiEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBB0464286B680B00054E4A /* OptiEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBB047C286B681E00054E4A /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB047B286B681E00054E4A /* EmailValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,8 @@
 		ADBB0465286B680B00054E4A /* OptiEmailValidator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = OptiEmailValidator.docc; sourceTree = "<group>"; };
 		ADBB046B286B680B00054E4A /* OptiEmailValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptiEmailValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBB0470286B680B00054E4A /* OptiEmailValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiEmailValidatorTests.swift; sourceTree = "<group>"; };
+		ADBB047B286B681E00054E4A /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		ADBB047E286B684800054E4A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 				ADBB0463286B680B00054E4A /* OptiEmailValidator */,
 				ADBB046F286B680B00054E4A /* OptiEmailValidatorTests */,
 				ADBB0462286B680B00054E4A /* Products */,
+				ADBB047D286B684800054E4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +77,7 @@
 			children = (
 				ADBB0464286B680B00054E4A /* OptiEmailValidator.h */,
 				ADBB0465286B680B00054E4A /* OptiEmailValidator.docc */,
+				ADBB047B286B681E00054E4A /* EmailValidator.swift */,
 			);
 			path = OptiEmailValidator;
 			sourceTree = "<group>";
@@ -83,6 +88,14 @@
 				ADBB0470286B680B00054E4A /* OptiEmailValidatorTests.swift */,
 			);
 			path = OptiEmailValidatorTests;
+			sourceTree = "<group>";
+		};
+		ADBB047D286B684800054E4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADBB047E286B684800054E4A /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADBB0466286B680B00054E4A /* OptiEmailValidator.docc in Sources */,
+				ADBB047C286B681E00054E4A /* EmailValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +408,7 @@
 		ADBB0479286B680B00054E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +424,7 @@
 		ADBB047A286B680B00054E4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

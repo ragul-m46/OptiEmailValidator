@@ -1,0 +1,11 @@
+framework module OptiEmailValidator {
+  umbrella header "OptiEmailValidator.h"
+
+  export *
+  module * { export * }
+}
+
+module OptiEmailValidator.Swift {
+    header "OptiEmailValidator-Swift.h"
+    requires objc
+}
