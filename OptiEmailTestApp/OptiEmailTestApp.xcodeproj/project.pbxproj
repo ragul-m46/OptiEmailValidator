@@ -13,7 +13,23 @@
 		ADBB0494286B688A00054E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBB0492286B688A00054E4A /* Main.storyboard */; };
 		ADBB0496286B688B00054E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBB0495286B688B00054E4A /* Assets.xcassets */; };
 		ADBB0499286B688B00054E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBB0497286B688B00054E4A /* LaunchScreen.storyboard */; };
+		ADBB04A7286B690C00054E4A /* OptiEmailValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBB04A5286B690000054E4A /* OptiEmailValidator.framework */; };
+		ADBB04A8286B690C00054E4A /* OptiEmailValidator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADBB04A5286B690000054E4A /* OptiEmailValidator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADBB04A4286B68B100054E4A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ADBB04A8286B690C00054E4A /* OptiEmailValidator.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		ADBB0489286B688A00054E4A /* OptiEmailTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptiEmailTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +40,7 @@
 		ADBB0495286B688B00054E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADBB0498286B688B00054E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADBB049A286B688B00054E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBB04A5286B690000054E4A /* OptiEmailValidator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OptiEmailValidator.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBB04A7286B690C00054E4A /* OptiEmailValidator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 				ADBB0495286B688B00054E4A /* Assets.xcassets */,
 				ADBB0497286B688B00054E4A /* LaunchScreen.storyboard */,
 				ADBB049A286B688B00054E4A /* Info.plist */,
+				ADBB04A5286B690000054E4A /* OptiEmailValidator.framework */,
 			);
 			path = OptiEmailTestApp;
 			sourceTree = "<group>";
@@ -77,6 +96,7 @@
 				ADBB0485286B688A00054E4A /* Sources */,
 				ADBB0486286B688A00054E4A /* Frameworks */,
 				ADBB0487286B688A00054E4A /* Resources */,
+				ADBB04A4286B68B100054E4A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,6 +307,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OptiEmailTestApp",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OptiEmailTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +338,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OptiEmailTestApp",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OptiEmailTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
